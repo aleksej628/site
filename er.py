@@ -10,6 +10,7 @@
 # translate = Translate()
 # translate.translate_function("")
 class Retrieval(object):
+    """Класс ищет время в предложениях"""
     i = 1
     i2 = 1
     i3 = 1
@@ -26,7 +27,6 @@ class Retrieval(object):
             while self.i3 != len(self.i):
                 while self.i2 != len(self.i):
                     self.object_ = self.i[self.i3: self.i2]
-                    if self.object_== '1 у' or '2 у' or '3 у' or '4 у' or '5 у' or'6 у' or '7 у' or '8' or'9' or '10'
                     if self.object_ == '6 утра':
                         return print('6:00')
                     elif self.object_ == '13:00':
