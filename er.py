@@ -23,6 +23,7 @@ class Retrieval(object):
                   "жаль что не существует 25:00", ]
 
     def retrieval_function(self):
+        """Функция перебирает строку как массив и ищет участки со временем"""
         for self.i in self.dictionary:
             while self.i3 != len(self.i):
                 while self.i2 != len(self.i):
